@@ -22,6 +22,7 @@
 					secondLarge = elem;
 				}
 			}
+			if (secondLarge === Number.MIN_SAFE_INTEGER) return -Infinity;//handling edge case
 			return secondLarge;
 		}
 
