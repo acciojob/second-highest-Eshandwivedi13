@@ -17,7 +17,7 @@
 			for(let elem of arr){
 				if(elem > firstLarge){
 					secondLarge = firstLarge;
-					firstLarge = secondLarge;
+					firstLarge = elem;
 				}else if(secondLarge < elem && elem != firstLarge){
 					secondLarge = elem;
 				}
